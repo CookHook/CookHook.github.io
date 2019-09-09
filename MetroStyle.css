@@ -1,0 +1,147 @@
+
+body {
+    /* background-image: url(http://www.metro2033.ru/upload/iblock/8f9/8f90106e25e66d91aaba5ab332336c11.gif);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat; */
+    background-color: black;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+#mainNavbar {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+#mainNavbar .navbar-brand {
+    color: rgb(143, 29, 143);
+    font-size: 2rem;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: rgb(143, 29, 143);
+    
+}
+
+.navbar.scrolled {
+    background: black;
+    transition: background 500ms;
+}
+
+
+
+h1 {
+    font-size: 4.5rem;
+    color: white;
+    font-weight: 500;
+}
+
+.sel2 {
+    font-size: 4rem;
+    color: white;
+}
+
+.sel3 {
+    font-size: 3.5rem;
+    color: white;
+}
+
+.sel4 {
+    font-size: 3rem;
+    color: white;
+}
+
+P {
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+@media (max-width: 1500px) {
+    h1 {
+        font-size: 3.5rem;
+        color: white;
+    }
+    
+    .sel2 {
+        font-size: 3rem;
+        color: white;
+    }
+    
+    .sel3 {
+        font-size: 2.5rem;
+        color: white;
+    }
+    
+    .sel4 {
+        font-size: 2rem;
+        color: white;
+    }
+
+    P {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 2.9rem;
+        color: white;
+    }
+    
+    .sel2 {
+        font-size: 2.5rem;
+        color: white;
+    }
+    
+    .sel3 {
+        font-size: 2rem;
+        color: white;
+    }
+    
+    .sel4 {
+        font-size: 1.5rem;
+        color: white;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+#banana {
+    width: 100%;
+}
+
+.smtext {
+    font-size: 1.5rem
+}
+
+.smhead {
+    font-size: 2.5rem;
+}
+/* .BU1 {
+    margin-top: 100px;;
+} */
+
+
+
+/* @media (max-width: 1500px) {
+    P {
+        font-size: 1rem;
+    }
+} */
